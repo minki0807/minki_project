@@ -1,0 +1,10 @@
+1. 아나콘다를 설치후 Jupyter Notebook을 설치
+2. Jupyter Notebook에서 CNN최종.ipynb라는 파일을 열기
+3. 실행조건 만족(라이브러리 설치 및 메모리 조절)
+4. 모델 저장코드.txt을 열어서 코드만 복사
+5. CNN최종 코드에서 마지막에 복사한 코드 붙여놓기
+6. 실행
+7. final_code -> MISA-main -> Home.py 실행
+8. Home.py 열어서 9번에 있는 저장된 모델 경로 수정
+9. cmd 열어서 Home.py에 있는 라이브러리 설치
+10. cmd에 streamlit run "Home.py가 있는 경로" 입력해서 실행
