@@ -1,0 +1,1 @@
+﻿18:21:19	ALTER TABLE 성적 add foreign key (과목명) references 과목(과목명)	Error Code: 1822. Failed to add the foreign key constraint. Missing index for constraint '성적_ibfk_2' in the referenced table '과목'	0.000 sec
