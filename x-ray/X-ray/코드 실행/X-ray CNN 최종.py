@@ -7,7 +7,7 @@ from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 import matplotlib.pyplot as plt
 
 # 경로 설정
-main_path = "C:/Users/myong/Desktop/x-ray/input/archive/chest_xray/chest_xray"
+main_path = "C:/Users/myong/Desktop/x-ray/input/archive/chest_xray/chest_xray" # 본인 컴퓨터에 따라 경로 지정
 train_path = os.path.join(main_path, "train")
 test_path = os.path.join(main_path, "test")
 val_path = os.path.join(main_path, "val")

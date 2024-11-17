@@ -6,7 +6,7 @@ import flask
 
 # Load the pre-trained CNN model from your saved file
 def load_cnn_model():
-    model = tf.keras.models.load_model('C:/Users/myong/Desktop/x-ray/X-ray/훈련된 cnn 모델/my_trained_cnn_model.h5')  # 상황에 따라 경로 수정
+    model = tf.keras.models.load_model('C:/Users/myong/Desktop/x-ray/X-ray/훈련된 cnn 모델/my_trained_cnn_model.h5')  #본인 컴퓨터에 따라 경로 수정
     return model
 
 # Preprocess the uploaded image
