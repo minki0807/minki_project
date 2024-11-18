@@ -1,2 +1,0 @@
-# 모델 저장
-model.save('my_trained_cnn_model.h5')  # 모델을 저장하는 코드 추가
