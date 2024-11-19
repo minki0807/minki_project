@@ -1,1 +1,0 @@
-streamlit run C:/Users/myong/Desktop/x-ray/X-ray/final_code/MISA-main/Home.py
