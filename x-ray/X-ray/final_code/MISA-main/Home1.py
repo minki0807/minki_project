@@ -46,12 +46,6 @@ def compare_images(image1, image2):
     score, diff = ssim(image1_gray, image2_gray, full=True)
     return score
 
-
-# 고정된 학습 이미지 로드
-fixed_image_path = "fixed_image.jpg"  
-fixed_image = Image.open(fixed_image_path) # 고정된 비교 이미지 경로
-st.image(fixed_image, caption="고정된 학습 이미지", use_column_width=True)
-
 # 사용자로부터 이미지 업로드 받기
 uploaded_image = st.file_uploader("업로드할 이미지를 선택하세요", type=["jpg", "jpeg", "png"])
 
