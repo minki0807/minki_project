@@ -35,4 +35,5 @@ if uploaded_image:
     
     # Interpret the prediction
     result = "Pneumonia" if prediction[0] > 0.5 else "Normal"
+    st.title("결과 및 측정 내용")
     st.subheader(f"Prediction: {result}")
